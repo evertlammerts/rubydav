@@ -1,0 +1,8 @@
+app = Proc.new do |env|
+  while env['rack.input'].read(1024)
+
+  end
+  [ 200, { 'Content-Type' => 'text/plain' }, [ 'hello world' ] ]
+end
+
+run app
