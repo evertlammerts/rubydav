@@ -19,6 +19,6 @@ doc/
 
 # RVM stuff:
 .rvmrc
-rubydav.gems
 
+# Symbolic link to the local gemset directory:
 gems

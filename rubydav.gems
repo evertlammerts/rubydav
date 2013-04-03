@@ -1,0 +1,8 @@
+# rubydav.gems generated gem export file. Note that any env variable settings will be missing. Append these after using a ';' field separator
+
+cucumber -v1.2.1
+nokogiri -v1.5.6
+rainbows -v4.4.2
+redcarpet -v2.2.2
+yard -v0.8.3
+zk
